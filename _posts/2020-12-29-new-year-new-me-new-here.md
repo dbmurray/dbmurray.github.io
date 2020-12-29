@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Hydeout
+title: New Year, New Me, New Here
 excerpt_separator:  <!--more-->
 ---
 
