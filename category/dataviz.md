@@ -3,9 +3,7 @@ layout: category
 title: Data Viz
 ---
 
-Sample category page. You need to create a page for each category.
-The category is inferred from the title of the page, but you can also
-specify it with the `category` attribute in the front matter.
+You'll find my posts related to the topic of data visaulisation listed below.
 
 ```md
 ---
@@ -24,4 +22,4 @@ category: My Category
 ---
 ```
 
-Posts get listed below here.
+All blog posts related to data visualisation should be listed below
