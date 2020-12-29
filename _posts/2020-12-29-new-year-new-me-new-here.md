@@ -10,4 +10,4 @@ For the past 15 or so years, I've been using the database-driven [Wordpress](htt
 
 I  wanted something that would serve text and images and not much more. Github Pages serves this purpose, doesn't use a database nor any fancy bloated plugins and also is free. That's all I need. 
 
-So, welcome to the new iteration of my webpage. This should become darraghmurray.com at some point soon.
+So, welcome to the new iteration of my webpage. This should become [darraghmurray.com](https://darraghmurray.com) at some point soon.
