@@ -6,7 +6,7 @@ remote_theme:     fongandrew/hydeout
 # Setup
 title:            Darragh Murray
 tagline:          'Data visualiser and analytics professional'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+description:      'Data visualiser and analytics professional'
 url:              https://dbmurray.github.io
 #baseurl:          '/hydeout'
                   # the optional subpath of your site, e.g. "/blog"
