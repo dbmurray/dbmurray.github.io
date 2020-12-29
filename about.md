@@ -6,6 +6,8 @@ sidebar_link: true
 
 My name is Darragh Murray, a strategic data analyst and data visualiser who primarily works in the education sector within Australia. Thanks for stopping by my corner of the web.
 
+![bio-pic.jpg]({{site.github.url}}/assets/images/bio-pic.jpg){:class="img-responsive"}
+
 On this website, you’ll find some of my writing data visualisation and analytics. You’ll also find links to my growing portfolio of data visualisation work along with a list of public presentations, publications and consulting work.
 
 I generally concentrate on subjects such as:
