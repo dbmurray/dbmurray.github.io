@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Year, New Me, New Here
+title: New Year, New Here
 excerpt_separator:  <!--more-->
 ---
 
