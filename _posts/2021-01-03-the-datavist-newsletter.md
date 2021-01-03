@@ -10,8 +10,8 @@ For quite some time, I've been thinking about starting my own newsletter, but I 
 
 I did a few of my own visualisations, including this one examining the <a href="https://public.tableau.com/profile/darragh.murray#!/vizhome/SeekingRefugeFromtheStorm/RefugeFromtheStorm">impact of climate change on forced migration</a>, and it got me thinking: "this area is really exciting - I would love to write about this."
 
-![The Datavist Newsletter](/assets/images/the-datavist.png)
+![The Datavist Newsletter](/assets/images/the-datavist.PNG)
 
-And finally, it's come to pass. I've just published <a href="https://thedatavist.substack.com/p/female-activism-in-the-time-of-covid19">the first edition of my new newsletter The Datavist via Substack</a>. In this edition, I'm simply sharing a few links to great stories which combined data visualisation with topics relevant to the humanities. 
+And finally, it's come to pass. I've just published <a href="https://thedatavist.substack.com/p/female-activism-in-the-time-of-covid19">the first edition of my new newsletter The Datavist via Substack</a>. In this edition, I'm simply sharing a few links to great stories which combined data visualisation on topics relevant to the humanities. It's early days but I'm looking forward to developing it a lot more over the coming year (perhaps even yearS). 
 
-I won't go into further details as I've put the rationale all in the first edition, but <a href="https://thedatavist.substack.com/">I'd encourage you to subscribe if this subject matter interests you</a>.
+I won't go into further details as I've put the rationale all in the first edition, but <a href="https://thedatavist.substack.com/">I'd encourage you to subscribe if this subject matter interests you</a>. 
