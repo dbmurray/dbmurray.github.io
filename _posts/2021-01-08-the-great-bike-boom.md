@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Great Bike Boom | #MakeOverMonday 2021, Week 1
+title: The Great Bike Boom | MakeOverMonday 2021, Week 1
 excerpt_separator:  <!--more-->
 ---
 
