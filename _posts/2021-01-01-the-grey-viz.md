@@ -4,7 +4,9 @@ title: The Grey Viz | Sentiment Analysis of The Grey Album
 excerpt_separator:  <!--more-->
 ---
 
-A placeholder post for my forthcoming blog explaining the development of The Grey Viz, a Tableau visaulisation where I look at the sentiment of the songs that went into creating Danger Mouse's remix record The Grey Album.
+A placeholder post for my forthcoming blog explaining the development of The Grey Viz, a Tableau visualisation where I look at the sentiment of the songs that went into creating Danger Mouse's remix record The Grey Album.
+
+![The Grey Viz](/assets/images/the-grey-viz.png)
 
 In the meantime, you can view the completed visualisation here by clicking the link below:
 
