@@ -8,7 +8,7 @@ Not going to go into a great deal of detail on this one. It's a relatively strai
 
 We were asked to visualise rail trail usuage data in the United States during 2020 and this is what I came up with. 
 
-![The Great Bike Boom](/assets/images/the-great-bike-boom.png)
+![The Great Bike Boom](/assets/images/the-great-bike-boom-sigmoid.png)
 
 This was more about experimentation than anything else. I spent quite a lot of time getting the curvy/sigmoid area charts to work properly (thanks to <a href="https://tableaumagic.com/sigmoid-area-charts-in-tableau/">Tableau Magic</a> for the useful instructions). 
 
