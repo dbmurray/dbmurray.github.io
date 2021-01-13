@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Great Bike Boom | MakeOverMonday 2021, Week 2
+title: The Tragedy of Mzansi | MakeOverMonday 2021, Week 2
 excerpt_separator:  <!--more-->
 ---
 
