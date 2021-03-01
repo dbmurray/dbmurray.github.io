@@ -21,7 +21,7 @@ Lately, I've been working with more extensive and more complex datasets and was 
 
 After joining a Slack channel with many enthusiastic R users (shoutout to runapp), I finally decided to give it a go again - this time focusing on using Tidyverse to do a bit of essential dataset cleansing. And now I'm thrilled I took the time to experiment. 
 
-<h2>Sorting UN population data</h2>
+<h2>Cleansing some population data</h2>
 
 To give you a quick example of how I've started my Tidyverse journey. I'm doing some work using some huge United Nations population text files. These data contain historical records of every country's population from 1950 to the present day plus forecasts up to the year 2100. For each of these years, the data is separated into individual age brackets. For example, I can use these data to see the projected number of 18 years old in Nigeria in 2100 if I wanted. 
 
