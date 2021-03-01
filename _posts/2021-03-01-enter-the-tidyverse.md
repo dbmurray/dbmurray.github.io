@@ -36,7 +36,7 @@ While PowerQuery and Tableau Prep can process these files, the cleaning flow too
 
 Here's some example code that quickly allows me to load two large text files, remove unneeded columns and then merge them. 
 
-```
+{% highlight r %}
 library(Tidyverse)
 library(readr)
 library(countrycode)
@@ -60,7 +60,7 @@ pop_2020_2100 <- read_csv("PopulationFile2_2020_2100.csv",
 # Now bind these two dataframes together to form one big dataset with all population observations
 
 pop_1950_2050 <- bind_rows(pop_2020_2100, pop_1950_2019)
-```
+{% endhighlight %}
 
 The above code uses of the <b>readr</b> package to import the files and then <b>dplyr</b> to do the merging. Both these packages live in the Tidyverse
 
