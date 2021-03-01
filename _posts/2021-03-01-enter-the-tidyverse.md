@@ -60,7 +60,7 @@ The above code uses of the <b>readr</b> package to import the files and then <b>
 
 My next task was to create some custom age groupings by aggregating the data and drop all data outside the year range of 2000 to 2050. Boom, one line of code!
 
-{% highlight html linenos %}
+{% highlight r %}
 # Filter out the unneeded years and age groups.  We only need the years 2000-2050 and age groups 20 to 41.
 pop_2020_2050_20_41_yr_old <- pop_1950_2050 %>%
   filter(Time >= 2000 & Time <= 2050 & AgeGrp>= 20 & AgeGrp <= 41)
@@ -68,7 +68,7 @@ pop_2020_2050_20_41_yr_old <- pop_1950_2050 %>%
 
 Next, I wanted to aggregate all my data into a new age group category "20 to 41" and summarise it by country and year and then output it to a new csv file for use in another application. Again, R/Tidy makes this easy. 
 
-{% highlight html linenos %}
+{% highlight r %}
 # Aggregate the age group data by location (country) and time (year)
 output_pop_2020_2050_20_41_yr_old <- group_by(pop_2020_2050_20_41_yr_old, Location, Time ) %>% summarise(pop_2020_2050_20_41_yr_old= sum(PopTotal))
 write_excel_csv(output_pop_2020_2050_20_41_yr_old, "output_pop_2020_2050_20_41_yr_old.csv")
