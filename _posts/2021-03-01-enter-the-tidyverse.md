@@ -29,7 +29,7 @@ So basically, these data contained [150 years] * [100 age groups] * [All countri
 
 While PowerQuery and Tableau Prep can process these files, the cleaning flow took a long time to design, an exceptionally long time to run and frequently crashed my reasonably high-end PC. These problems evaporated once I got my head around the essential cleansing functions available in R and Tidyverse. Here's some example code that quickly allows me to load two large text files, remove unneeded columns and then merge them. 
 
-{% highlight r %}
+```
 library(Tidyverse)
 library(readr)
 library(countrycode)
@@ -53,8 +53,7 @@ pop_2020_2100 <- read_csv("PopulationFile2_2020_2100.csv",
 # Now bind these two dataframes together to form one big dataset with all population observations
 
 pop_1950_2050 <- bind_rows(pop_2020_2100, pop_1950_2019)
-
-{% endhighlight %}
+```
 
 The above code uses of the <b>readr</b> package to import the files and then <b>dplyr</b> to do the merging. Both these packages live in the Tidyverse
 
