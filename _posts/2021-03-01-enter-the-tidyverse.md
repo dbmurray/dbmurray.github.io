@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enter the Tidyverse | Getting back into R
+title: Enter the Tidyverse | Getting back into R through some basic data cleaning
 excerpt_separator:  <!--more-->
 ---
 So late last week, I dipped my toes into the Tidyverse ocean for the first time. If you've never heard of the <a href="https://www.Tidyverse.org/">Tidyverse</a>, let me quickly get you up to speed: it's a collection of packages designed for data science within the R ecosystem (if you don't know what R is, <a href="https://en.wikipedia.org/wiki/R_(programming_language)">it's a programming language heavily orientated towards statistical computing</a>). 
@@ -9,9 +9,10 @@ So late last week, I dipped my toes into the Tidyverse ocean for the first time.
 
 I've had a very love-hate relationship with R over the years. Generally, I loved what one could do with it, but I lacked the patience to get my head of the seemingly steep learning curve (<a href="http://r4stats.com/articles/why-r-is-hard-to-learn/">this post by Robert A Muenchen sums up many of the main issues I also encountered with R!</a>) Beyond the learning curve, the love-hate relationship manifested in two critical ways. 
 
-Firstly, I often encountered frustrating issues getting R and R Studio to run correctly. I don't know how many times I stopped using it after hitting error messages when merely trying to <i>install</i> basic packages. 
-
-Secondly, when I did get it going, I wasn't using it for things that benefitted me often, but using it to practice machine learning techniques (like Bayesian classifications and regressions). These are all well and good, but it's not like I use these functions frequently. I can count the number of regressions I've done in the last seven years on the one hand.
+<ul>
+<li>Firstly, I often encountered frustrating issues getting R and R Studio to run correctly. I don't know how many times I stopped using it after hitting error messages when merely trying to <i>install</i> basic packages.</li>
+<li>Secondly, when I did get it going, I wasn't using it for things that benefitted me often, but using it to practice machine learning techniques (like Bayesian classifications and regressions). These are all well and good, but it's not like I use these functions frequently. I can count the number of regressions I've done in the last seven years on the one hand.</li>
+<ul>
 
 For a long time, R wasn't something I needed to do my work. But things have changed over the last year as I find myself more and more engaged in doing a lot of data-science adjacent work. Being efficient and consistent when cleansing data suddenly is a crucial thing. 
 
