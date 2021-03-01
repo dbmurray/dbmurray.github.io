@@ -29,7 +29,7 @@ So basically, these data contained [150 years] * [100 age groups] * [All countri
 
 While PowerQuery and Tableau Prep can process these files, the cleaning flow took a long time to design, an exceptionally long time to run and frequently crashed my reasonably high-end PC. These problems evaporated once I got my head around the essential cleansing functions available in R and Tidyverse. Here's some example code that quickly allows me to load two large text files, remove unneeded columns and then merge them. 
 
-{% highlight html linenos %}
+{% highlight r %}
 library(Tidyverse)
 library(readr)
 library(countrycode)
