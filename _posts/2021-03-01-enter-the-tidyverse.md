@@ -63,7 +63,7 @@ pop_2020_2100 <- read_csv("PopulationFile2_2020_2100.csv",
 pop_1950_2050 <- bind_rows(pop_2020_2100, pop_1950_2019)
 {% endhighlight %}
 
-The above code uses of the <b>readr</b> package to import the files and then <b>dplyr</b> to do the merging. Both these packages live in the Tidyverse
+The above code uses of the <b><a href="https://readr.tidyverse.org/articles/readr.html">readr</a></b> package to import the files and then <b><a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr</a></b> to do the merging. Both these packages live in the Tidyverse
 
 My next task was to create some custom age groupings by aggregating the data and drop all data outside the year range of 2000 to 2050. Boom, one line of code!
 
