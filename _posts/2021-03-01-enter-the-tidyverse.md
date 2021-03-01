@@ -3,10 +3,9 @@ layout: post
 title: Enter the Tidyverse | Getting back into R
 excerpt_separator:  <!--more-->
 ---
+So late last week, I dipped my toes into the Tidyverse ocean for the first time. If you've never heard of the <a href="https://www.Tidyverse.org/">Tidyverse</a>, let me quickly get you up to speed: it's a collection of packages designed for data science within the R ecosystem (if you don't know what R is, <a href="https://en.wikipedia.org/wiki/R_(programming_language)">it's a programming language heavily orientated towards statistical computing</a>). 
 
 ![Enter the Tidyverse](/assets/images/enter-the-tidyverse.png)
-
-So late last week, I dipped my toes into the Tidyverse ocean for the first time. If you've never heard of the <a href="https://www.Tidyverse.org/">Tidyverse</a>, let me quickly get you up to speed: it's a collection of packages designed for data science within the R ecosystem (if you don't know what R is, <a href="https://en.wikipedia.org/wiki/R_(programming_language)">it's a programming language heavily orientated towards statistical computing</a>). 
 
 I've had a very love-hate relationship with R over the years. Generally, I loved what one could do with it, but I lacked the patience to get my head of the seemingly steep learning curve (<a href="http://r4stats.com/articles/why-r-is-hard-to-learn/">this post by Robert A Muenchen sums up many of the main issues I also encountered with R!</a>) Beyond the learning curve, the love-hate relationship manifested in two critical ways. 
 
@@ -30,7 +29,7 @@ So basically, these data contained [150 years] * [100 age groups] * [All countri
 
 While PowerQuery and Tableau Prep can process these files, the cleaning flow took a long time to design, an exceptionally long time to run and frequently crashed my reasonably high-end PC. These problems evaporated once I got my head around the essential cleansing functions available in R and Tidyverse. Here's some example code that quickly allows me to load two large text files, remove unneeded columns and then merge them. 
 
-<blockquote>
+{% highlight html linenos %}
 library(Tidyverse)
 library(readr)
 library(countrycode)
@@ -55,7 +54,7 @@ pop_2020_2100 <- read_csv("PopulationFile2_2020_2100.csv",
 
 pop_1950_2050 <- bind_rows(pop_2020_2100, pop_1950_2019)
 
-</blockquote>
+{% endhighlight %}
 
 The above code uses of the <b>readr</b> package to import the files and then <b>dplyr</b> to do the merging. Both these packages live in the Tidyverse
 
