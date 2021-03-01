@@ -7,7 +7,9 @@ So late last week, I dipped my toes into the Tidyverse ocean for the first time.
 
 ![Enter the Tidyverse](/assets/images/enter-the-tidyverse.png)
 
-I've had a very love-hate relationship with R over the years. Generally, I loved what one could do with it, but I lacked the patience to get my head of the seemingly steep learning curve (<a href="http://r4stats.com/articles/why-r-is-hard-to-learn/">this post by Robert A Muenchen sums up many of the main issues I also encountered with R!</a>). Beyond the learning curve, the love-hate relationship manifested in two critical ways. 
+I've had a very love-hate relationship with R over the years. Generally, I loved what one could do with it, but I lacked the patience to get my head of the seemingly steep learning curve (<a href="http://r4stats.com/articles/why-r-is-hard-to-learn/">this post by Robert A Muenchen sums up many of the main issues I also encountered with R!</a>). 
+
+Beyond the learning curve, the love-hate relationship manifested in two critical ways. 
 
 <ul>
 <li>Firstly, I often encountered frustrating issues getting R and R Studio to run correctly. I don't know how many times I stopped using it after hitting error messages when merely trying to <i>install</i> basic packages.</li>
@@ -39,7 +41,6 @@ Here's some example code that quickly allows me to load two large text files, re
 {% highlight r %}
 library(Tidyverse)
 library(readr)
-library(countrycode)
 
 # Read in population data covering the years 2020 through 2050, skipping unneeded columns
 pop_1950_2019 <- read_csv("PopulationFile1_1950_2019.csv", 
@@ -83,4 +84,6 @@ output_pop_2020_2050_20_41_yr_old <- group_by(pop_2020_2050_20_41_yr_old, Locati
 
 And viola! Basic data cleansing done. Now on the press of a button (assuming the source data structure does not change), I can get my data into the correct shape in seconds and even faster than the time it would take me to load up the source datasets in excel/powerquery/Tableau Prep and do the exact same thing. 
 
-The above example is basic and scratching the surface of what is possible with R and Tidyverse but it's incredibly useful and saves hours/weeks of work over a long period. I suspect I'll continue to play in the Tidyverse space for some time going forward and hopefully I'll find the time to document some of the journey here. 
+The above example is basic and scratching the surface of what is possible with R and Tidyverse but it's incredibly useful and saves hours/weeks of work over a long period. 
+
+I suspect I'll continue to play in the Tidyverse space for some time going forward and hopefully I'll find the time to document some of the journey here. 
