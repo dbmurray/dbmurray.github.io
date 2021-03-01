@@ -28,7 +28,9 @@ To give you a quick example of how I've started my Tidyverse journey. I'm doing 
 
 These data contain historical records of every country's population from 1950 to the present day plus forecasts up to the year 2100. For each of these years, the data is separated into individual age brackets. For example, I can use these data to see the projected number of 18 years old in Nigeria in 2100 if I wanted. 
 
-So basically, these data contained [150 years] * [100 age groups] * [All countries plus some country groupings]. The result? 7,000,000 observation in two text files totalling over 500 megabytes. These files are <i>enormous</i>. My job was to join these files together, remove the unneeded rows and columns, aggregate the data into a specific age group (separate from the UN's usual groupings) and then output the data in a new file. 
+So basically, these data contained <b>[150 years] * [100 age groups] * [All countries plus some country groupings]</b>. The result? <b>7,000,000 observations</b> in two text files totalling over 500 megabytes. These files are <i>enormous</i>. 
+
+My job was to join these files together, remove the unneeded rows and columns, aggregate the data into a specific age group (separate from the UN's usual groupings) and then output the data in a new file. 
 
 While PowerQuery and Tableau Prep can process these files, the cleaning flow took a long time to design, an exceptionally long time to run and frequently crashed my reasonably high-end PC. These problems evaporated once I got my head around the essential cleansing functions available in R and Tidyverse. 
 
