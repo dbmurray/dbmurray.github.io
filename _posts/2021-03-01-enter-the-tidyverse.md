@@ -18,7 +18,7 @@ Beyond the learning curve, the love-hate relationship manifested in two critical
 
 For a long time, R wasn't something I needed to do my work. But things have changed over the last year as I find myself more and more engaged in doing a lot of data-science adjacent work. Being efficient and consistent when cleansing data suddenly is a crucial thing. 
 
-I frequently require to cleanse data. Typically, I rely on tools like Excel, PowerQuery and Tableau Prep to do so. As any data person knows, data cleansing is the most time-consuming part of the job - but it's also incredibly crucial to get right. It's also sometimes mind-numbing and prone to errors. Anything that can reduce the time to accurately clean datasets is a desirable proposition.
+I frequently require to cleanse data. Typically, I rely on tools like <b>Excel, PowerQuery</b> and <b>Tableau Prep</b> to do so. As any data person knows, data cleansing is the most time-consuming part of the job - but it's also incredibly crucial to get right. It's also sometimes mind-numbing and prone to errors. Anything that can reduce the time to accurately clean datasets is a desirable proposition.
 
 Lately, I've been working with more extensive and more complex datasets and was getting frustrated by PowerQuery and Tableau Prep's performance. While I could set up cleansing workflows on these platforms quickly enough, I encountered issues when working with data with many millions of rows. Frequently, these products would demand colossal system resources and often crash. 
 
