@@ -7,12 +7,12 @@ So late last week, I dipped my toes into the Tidyverse ocean for the first time.
 
 ![Enter the Tidyverse](/assets/images/enter-the-tidyverse.png)
 
-I've had a very love-hate relationship with R over the years. Generally, I loved what one could do with it, but I lacked the patience to get my head of the seemingly steep learning curve (<a href="http://r4stats.com/articles/why-r-is-hard-to-learn/">this post by Robert A Muenchen sums up many of the main issues I also encountered with R!</a>) Beyond the learning curve, the love-hate relationship manifested in two critical ways. 
+I've had a very love-hate relationship with R over the years. Generally, I loved what one could do with it, but I lacked the patience to get my head of the seemingly steep learning curve (<a href="http://r4stats.com/articles/why-r-is-hard-to-learn/">this post by Robert A Muenchen sums up many of the main issues I also encountered with R!</a>). Beyond the learning curve, the love-hate relationship manifested in two critical ways. 
 
 <ul>
 <li>Firstly, I often encountered frustrating issues getting R and R Studio to run correctly. I don't know how many times I stopped using it after hitting error messages when merely trying to <i>install</i> basic packages.</li>
 <li>Secondly, when I did get it going, I wasn't using it for things that benefitted me often, but using it to practice machine learning techniques (like Bayesian classifications and regressions). These are all well and good, but it's not like I use these functions frequently. I can count the number of regressions I've done in the last seven years on the one hand.</li>
-<ul>
+</ul>
 
 For a long time, R wasn't something I needed to do my work. But things have changed over the last year as I find myself more and more engaged in doing a lot of data-science adjacent work. Being efficient and consistent when cleansing data suddenly is a crucial thing. 
 
@@ -28,7 +28,9 @@ To give you a quick example of how I've started my Tidyverse journey. I'm doing 
 
 So basically, these data contained [150 years] * [100 age groups] * [All countries plus some country groupings]. The result? 7,000,000 observation in two text files totalling over 500 megabytes. These files are <i>enormous</i>. My job was to join these files together, remove the unneeded rows and columns, aggregate the data into a specific age group (separate from the UN's usual groupings) and then output the data in a new file. 
 
-While PowerQuery and Tableau Prep can process these files, the cleaning flow took a long time to design, an exceptionally long time to run and frequently crashed my reasonably high-end PC. These problems evaporated once I got my head around the essential cleansing functions available in R and Tidyverse. Here's some example code that quickly allows me to load two large text files, remove unneeded columns and then merge them. 
+While PowerQuery and Tableau Prep can process these files, the cleaning flow took a long time to design, an exceptionally long time to run and frequently crashed my reasonably high-end PC. These problems evaporated once I got my head around the essential cleansing functions available in R and Tidyverse. 
+
+Here's some example code that quickly allows me to load two large text files, remove unneeded columns and then merge them. 
 
 ```
 library(Tidyverse)
